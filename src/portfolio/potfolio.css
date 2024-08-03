@@ -1,0 +1,29 @@
+
+.portfolio{
+    position: relative;
+}
+
+
+
+.layer {
+    background-color: rgba(0, 165, 171, 0.861);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all .5s;
+    border-radius: 10px;
+}
+
+.portfolio:hover .layer{
+    opacity: 1;
+}
+
+.portfolio .layer i{
+    font-size: 50px;
+}
